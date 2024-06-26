@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #271b20;
+  opacity: 0.9;
+  color: #fff;
+  padding: 30px 20px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header .topbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex: 5;
+  padding-left: 2rem;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
